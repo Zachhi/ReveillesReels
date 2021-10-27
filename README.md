@@ -1,10 +1,8 @@
 # Reveilles-Reels
 
-My implementation of a linux shell
+A movie reccomendation software created in a team of 5 that reccomends movies to clients based on different parameters. There is both a client and an analyst side. The client side uses a clients data to analyze their watch history and preferences. The analyst side is for people who want to analyze what movies are popular and what movies they should create more of. Implemented using Java, Java Swing, SQL, and PostgreSQL. Waterfall methodology was used in planning and executing this project. 
 
-Shell has the ability to function almost as much as the linux/ubuntu shell in your OS, which lets a user navigate through the file system and perform a wide variety of tasks using a series of easy to remember and simple commands. A lot of utility is included, such as the ability to parse through one or more pipes, input output redirection, directory processing, background processes, and more. Some of the commands you can use are detailed below
-
-I just created this repository so I could have this project on my main github account
+Data is pulled from 5 different csv files, each with 500,000 lines of data. Data is pulled, formatted, and stored into an online database using java and SQL. The data is then  fetched from the online database using java and SQL in order to give the correct analysis and results.
 
 ## Demo
 
@@ -14,38 +12,7 @@ https://www.youtube.com/watch?v=sT9SZdZqSJE
 
 #### Simple Commands with Arguments
 
-* echo 'dsfdskj'
-* ls
-* ls -l /sbin
-* ls -l -a
-* ps -aux
-* ls -l ..
 
-#### Input/Output Redirection
-
-* ps aux > a
-* grep /init < a
-* grep /init < a > b
-
-#### Single and Multiple Piping
-
-* ls -l | grep <pattern>
-* ps aux | awk '/init/{print $1}' | sort -r
-* ps aux | awk '/init/{print $1}' | sort -r | awk '/ro/' |grep ro
-* ps aux | awk '{print $1$11}' | sort -r | grep root
-* awk '{print $1$11}'<test.txt | head -10 | head -8 | head -7| sort > output.txt
-  
-#### Background Processes
-
-* sleep 20 &
-
-#### Directory Processing
-* cd ../../
-* cd .
-* cd /home/
-* cd -
- 
-Type quit to end the program
 
 ### Dependencies
 
