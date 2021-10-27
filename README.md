@@ -4,6 +4,10 @@ A movie recommendation software created in a team of 5 that recommends movies to
 
 Data is pulled from 5 different csv files, each with 500,000 lines of data. Data is pulled, formatted, and stored into an online database using java and SQL. The data is then  fetched from the online database using java and SQL in order to give the correct analysis and results.
 
+Recommendations are based on many things, such as the client's top rated directors, movies, genres, similar movies, etc. Also based on movies other client's who watched
+similar movies like, and more. There are many different utilities, such as a "movies to stay away from" and a "director's choice" section. The analyst side has a lot of ways
+to analyze movies, such as determining what actors have chemistry, what movies have a cult following, and more.
+
 ## Demo
 
 https://www.youtube.com/watch?v=sT9SZdZqSJE
@@ -18,8 +22,10 @@ https://www.youtube.com/watch?v=sT9SZdZqSJE
 ### Installing and Executing
 
 * Download the source code from github, or clone the repository into Visual Studio
-* Type `make` and then execute `./run`
-* You will want to do this in a virtual enviroment if you edit the files, otherwise you may compromise your computer's health
+* Change directory to <currentDir>/Reveilles-Reels/GUI
+* Compile with `javac *.java`
+* Execute with `java -cp ".;postgresql-42.2.8.jar" MainFile`. Use a `:` instead of a `;` if on Mac
+* Type `V` for client view, or `A` for analyst view
 
 ## Authors
 
