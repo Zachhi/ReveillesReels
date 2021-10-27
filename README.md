@@ -8,16 +8,12 @@ Data is pulled from 5 different csv files, each with 500,000 lines of data. Data
 
 https://www.youtube.com/watch?v=sT9SZdZqSJE
 
-### Types of Commands to Test Shell
-
-#### Simple Commands with Arguments
-
-
 
 ### Dependencies
 
-* Some way to compile and execute c++ code
-* GNU Make (Not required, but makes executing easier)
+* Some way to compile and execute Java code
+* SQL and PostgreSQL
+* Access to Tamu network, either directly or through a VPN in order to access the database
 
 ### Installing and Executing
 
