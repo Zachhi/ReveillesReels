@@ -10,7 +10,7 @@ to analyze movies, such as determining what actors have chemistry, what movies h
 
 ## Demo
 
-https://www.youtube.com/watch?v=sT9SZdZqSJE
+https://www.youtube.com/watch?v=bvd4KsevTKk
 
 
 ### Dependencies
