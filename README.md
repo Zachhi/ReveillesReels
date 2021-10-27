@@ -61,9 +61,13 @@ Type quit to end the program
 ## Authors
 
 Zachary Chi - zachchi@tamu.edu
+  
 Emory Fields - emory.c.fields@tamu.edu
+  
 Morgan Roberts - morgan.roberts00@tamu.edu
+  
 Allison Edwards - allisone12@tamu.edu
+  
 Emma Haeussler - emmahaeussler@tamu.edu
   
 ## License
