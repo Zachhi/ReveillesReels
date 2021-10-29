@@ -8,7 +8,7 @@ Recommendations are based on many things, such as the client's top rated directo
 similar movies like, and more. There are many different utilities, such as a "movies to stay away from" and a "director's choice" section. The analyst side has a lot of ways
 to analyze movies, such as determining what actors have chemistry, what movies have a cult following, and more.
 
-I just moved this to my main github account instead of my school one
+I just moved this to my main github account instead of my school one.
 
 ## Demo
 
