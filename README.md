@@ -43,4 +43,4 @@ Emma Haeussler - emmahaeussler@tamu.edu
   
 ## License
 
-This project is licensed under the GNU General Public License v2.0 - see the LICENSE.md file for details
+This project is licensed under the MIT license- see the LICENSE.md file for details
